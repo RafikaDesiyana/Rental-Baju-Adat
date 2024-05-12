@@ -1,19 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  background-color: lightblue;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Tahoma';
 }
-</style>
-</head>
-<body>
 
-<h1>Hello World!</h1>
+body {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
 
-<p>This page has a light blue background color!</p>
+header {
+  text-align: center;
+  background-color: antiquewhite;
+  width: 100%;
+  font-weight: bold;
+  padding: 2%;
+  top: 0;
+}
+header img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  float: leftS;
+}
 
-</body>
-</html>
+.title {
+  color: var(--green);
+  border-bottom: 1px solid var(--white);
+  display: inline-block; /* agar input search dan tombol submit tidak overlap */
+  margin-right: 50px;
+}
 
+.input-search {
+  width: 40%; /* ubah lebar menjadi 60% agar lebih luas */
+  border: none;
+  border-radius: 0 0 10px 0; /* ubah border radius agar sesuai dengan input search */
+  padding: 5px; /* tambahkan sedikit padding */
+  margin-right: 5px; /* tambahkan margin kanan agar terpisah dari tombol submit */
+  background-color: rgb(0, 174, 255);
+}
 
+.input-submit {
+  border: none;
+  border-radius: 0 10px 0 0;
+  padding: 5px 10px; /* tambahkan sedikit padding */
+  background-color: var(--green);
+  color: var(--blue);
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px; /* tambahkan margin-right agar ada ruang antara setiap elemen */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* hilangkan margin-right pada elemen terakhir */
+}
+
+nav ul li a {
+  color: var(--white); /* ubah warna teks menjadi putih */
+  border-bottom: 3px solid transparent; /* ubah border menjadi transparan */
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid var(--green); /* tambahkan efek hover pada link */
+}

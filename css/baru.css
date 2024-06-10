@@ -5,7 +5,16 @@
   list-style-type: none;
   box-sizing: border-box;
   font-family: "Baloo 2", display;
+  scroll-behavior: smooth;
 }
+
+:root{
+  --bg-color :#B5C0D0;
+  --second-bg-color :#F5E8DD;
+  --main-color : rgb(220, 215, 215);
+}
+
+
 
 body {
   background-color: #F5E8DD;
@@ -17,7 +26,7 @@ header {
   background-color: #B5C0D0;
   width: 100%;
   font-weight: bold;
-  padding: 5%;
+  padding: 50px;
   top: 0;
 }
 header img {
@@ -89,11 +98,69 @@ table{
 }
 
 
-.main{
+/* main css */
+
+.content .content-header{
   display: flex;
-  width: 100vw;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.main img{
+  width: 100%;
+  object-fit: contain;
+  border: 5px solid;
+  border-radius: 10px;
+}
+
+.main .content-header{
+  font-size: 25px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+
+/* item css */
+
+.item .judul{
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+}
+
+.item-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+/* .item-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  gap:.0rem;
+} */
+
+.item .item-content{
+  width: 250px;
+  min-width: 100px;
+  font-size: 10px;
+
+}
+
+.item .item-content img{
+  width: 100%;
+  object-fit: contain;
+  border:2px solid black;
+  border-radius: 10px;
+
+}
+
+
+/* footer css */
 
 footer{
   bottom: 0;

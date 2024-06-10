@@ -4,34 +4,35 @@
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
-  font-family: 'Tahoma';
+  font-family: "Baloo 2", display;
 }
 
 body {
-  background-color: var(--dark-blue);
+  background-color: #F5E8DD;
   color: var(--white);
 }
 
 header {
   text-align: center;
-  background-color: antiquewhite;
+  background-color: #B5C0D0;
   width: 100%;
   font-weight: bold;
-  padding: 2%;
+  padding: 5%;
   top: 0;
 }
 header img {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 80px;
   object-fit: contain;
-  float: leftS;
+  float: left;
+  
 }
 
 .title {
   color: var(--green);
   border-bottom: 1px solid var(--white);
   display: inline-block; /* agar input search dan tombol submit tidak overlap */
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .input-search {
@@ -40,7 +41,7 @@ header img {
   border-radius: 0 0 10px 0; /* ubah border radius agar sesuai dengan input search */
   padding: 5px; /* tambahkan sedikit padding */
   margin-right: 5px; /* tambahkan margin kanan agar terpisah dari tombol submit */
-  background-color: rgb(0, 174, 255);
+  background-color: #f9f2e6;
 }
 
 .input-submit {
@@ -76,4 +77,57 @@ nav ul li a {
 
 nav ul li a:hover {
   border-bottom: 3px solid var(--green); /* tambahkan efek hover pada link */
+}
+
+table{
+  background-color: #dde3ed;
+  color: black;
+  border :none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin : 20px;
+}
+
+
+.main{
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+footer{
+  bottom: 0;
+  background-color: #B5C0D0;
+  color: black;
+  padding: 20px 20px;
+  width: 100%;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section {
+   margin-right: 30px;
+}
+.footer-section h3 {
+  font-size: 1.2em;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-section.address address {
+   font-style: normal;
 }

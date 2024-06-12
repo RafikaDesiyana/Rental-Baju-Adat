@@ -22,51 +22,83 @@ body {
 }
 
 .header {
-  text-align: center;
   background-color: #B5C0D0;
   width: 100%;
-  font-weight: bold;
-  padding: 50px;
+  padding: 20px 10px;
   top: 0;
+  right: 0;
+  display: flex;
   position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+
 }
-.header img {
-  width: 20px;
-  object-fit: contain;
-  float: left;
+.logo img{
+  max-width: 100px;
+  height: auto;
+}
+
+.navmenu{
+  display: flex;
+}
+
+.navmenu a{
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-weight: 400;
+  transition: all. 42s ease;
+}
+
+.navmenu a:hover{
+  color: blue;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+}
+
+.icon i{
+  margin-right: 20px;
+  padding: 10px 10px;
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+  transition: all. 42s ease;
   
 }
 
-nav {
-  margin-top: 15px;
+.icon i:hover{
+  color: blue;
 }
 
-nav ul {
-  display: flex;
-  justify-content: center;
+section{
+  margin-top: 130px;
 }
 
-nav ul li {
-  margin-right: 20px; /* tambahkan margin-right agar ada ruang antara setiap elemen */
+.main img{
+  width: 100%;
+  object-fit: contain;
+  border: 5px solid;
+  border-radius: 10px;
 }
 
-nav ul li:last-child {
-  margin-right: 0; /* hilangkan margin-right pada elemen terakhir */
-}
-
-nav ul li a {
-  color: var(--white); /* ubah warna teks menjadi putih */
-  border-bottom: 3px solid transparent; /* ubah border menjadi transparan */
-}
-
-
+.main .content-header{
+  font-size: 25px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  font-family: fantasy;
+} */
 
 
 
 
 /* main css */
 
-.content .content-header{
+/* .content .content-header{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +118,7 @@ nav ul li a {
   margin: 20px 0px 20px 0px;
   text-align: center;
   font-family: fantasy;
-}
+} */
 
 
 /* item css */

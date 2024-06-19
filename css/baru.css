@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
-  font-family: "Baloo 2";
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -84,7 +84,7 @@ body {
   font-size: 25px;
   margin: 130px 0px 20px 0px;
   text-align: center;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   span{
     color: blue;
     font-size: 40px;
@@ -131,10 +131,10 @@ body {
 
 .product-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap:2rem;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -152,7 +152,7 @@ body {
   object-fit: contain;
   border:2px solid black;
   border-radius: 10px;
-
+  
 }
 
 /* item css */
@@ -210,6 +210,74 @@ body {
 
 /* footer css */
 
+.site-footer {
+    background-color:#B5C0D0;;
+    padding: 10px 0;
+    color: #777;
+    font-size: 14px;
+}
+.site-footer a {
+    color: #777;
+    text-decoration: none;
+}
+.site-footer a:hover {
+    color: #333;
+}
+.site-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.site-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.site-footer .col-md-4 {
+    margin-bottom: 30px;
+}
+.site-footer h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.site-footer p {
+    color: #777;
+    line-height: 1.8;
+}
+.site-footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.site-footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+.site-footer .list-unstyled li a {
+    color: #777;
+}
+.site-footer .list-unstyled li a:hover {
+    color: #333;
+}
+.site-footer .social-icons {
+    margin-top: 10px;
+}
+.site-footer .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #777;
+    font-size: 20px;
+}
+.site-footer .social-icons a:hover {
+    color: #333;
+}
+.site-footer .copyright {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    color: #777;
+    font-size: 12px;
+}
+
 footer{
   bottom: 0;
   background-color: #B5C0D0;
@@ -222,6 +290,7 @@ footer{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*
 .footer-container {
   width: 90%;
   margin: 0 auto;
@@ -245,4 +314,5 @@ footer{
 }
 .footer-section.address address {
    font-style: normal;
-}
+} */
+

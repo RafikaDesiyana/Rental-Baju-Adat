@@ -14,7 +14,7 @@
             <li><a href="#main">Beranda</a></li>
             <li><a href="#item">Postingan</a></li>
             <li><a href="#product">Produk</a></li>
-            <li><a href="#footer">Tentang</a></li>  
+            <li><a href="#">Tentang</a></li>  
         </ul>
 
         <div class="icon">

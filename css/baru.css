@@ -93,32 +93,6 @@ body {
 
 
 
-
-/* main css */
-
-/* .content .content-header{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.main img{
-  width: 100%;
-  object-fit: contain;
-  border: 5px solid;
-  border-radius: 10px;
-}
-
-.main .content-header{
-  font-size: 25px;
-  margin: 20px 0px 20px 0px;
-  text-align: center;
-  font-family: fantasy;
-} */
-
-
 /* produk css */
 
 .product .judul{
@@ -289,6 +263,27 @@ footer{
   align-items: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* CSS untuk gambar kecil */
+
+.social-icons {
+  list-style: none; 
+  padding: 0; 
+  display: flex; 
+  justify-content: space-between;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px; 
+  height: auto; 
+}
+
+
+
 
 /*
 .footer-container {

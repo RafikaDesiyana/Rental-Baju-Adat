@@ -11,9 +11,9 @@
                 <div class="col-md-4">
                     <h3>Link Penting</h3>
                     <ul class="list-unstyled">
-                        <li><a href="#">Konfirmasi Pembayaran</a></li>
+                        <li><a href="pembayarab.html">Konfirmasi Pembayaran</a></li>
                         <li><a href="#">Pembayaran & Pengiriman</a></li>
-                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="syarat%20dan%20ketentuan.html">Syarat & Ketentuan</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">

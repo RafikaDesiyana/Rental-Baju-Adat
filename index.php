@@ -432,7 +432,37 @@ include 'header.php'
   </div>
 </div>
 
-
+<!-- tentang.php -->
+<section id="about"> 
+  <div class="judul-about"> 
+    <h2>Tentang Kami</h2> 
+  </div> 
+  <div class="tentang"> 
+    <div class="history"> 
+      <h3>Sejarah</h3> 
+      <p>Arti Kostum berdiri pada tahun 2000 dengan visi untuk melestarikan dan memperkenalkan kekayaan budaya Indonesia melalui baju adat tradisional. Ide untuk mendirikan toko ini bermula dari kecintaan pendiri kami, terhadap keanekaragaman budaya dan warisan tradisional Indonesia. Sebagai seorang kolektor baju adat dari berbagai daerah, beliau melihat adanya kebutuhan untuk mempermudah akses masyarakat dalam mengenal dan menggunakan pakaian tradisional, baik untuk acara formal, festival budaya, maupun upacara adat.</p> 
+      <p>Pada awalnya, toko kami berlokasi di sebuah ruko kecil di pusat kota Jakarta. Dengan koleksi yang terbatas namun beragam, kami mulai menarik perhatian masyarakat yang ingin merasakan keindahan busana adat tanpa harus membeli secara permanen. Seiring berjalannya waktu, permintaan semakin meningkat, dan kami mulai memperluas koleksi kami mencakup berbagai jenis baju adat dari Sabang sampai Merauke.</p> 
+      <p>Dalam dua dekade terakhir, Arti Kostum telah berkembang pesat. Kami kini memiliki beberapa cabang di berbagai kota besar di Indonesia dan bermitra dengan desainer lokal serta pengrajin tradisional untuk memastikan setiap baju yang kami sewakan tetap otentik dan berkualitas tinggi. Selain itu, kami juga aktif berpartisipasi dalam berbagai acara budaya dan pameran untuk lebih mengenalkan keindahan dan kekayaan baju adat Indonesia kepada generasi muda.</p> 
+      <p>Komitmen kami adalah untuk terus menjaga dan melestarikan warisan budaya bangsa melalui penyewaan baju adat, serta memberikan layanan terbaik bagi pelanggan kami. Kami percaya bahwa dengan mengenakan baju adat, kita tidak hanya menunjukkan rasa cinta terhadap budaya, tetapi juga menjaga identitas dan kebanggaan sebagai bangsa Indonesia.</p> 
+    </div> 
+    <div class="sponsors"> 
+      <h3>Sponsor</h3> 
+      <ul class="list-unstyled sponsors">
+        <li><a href="#"><img src="img/danaaa.jpg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="img/shopeepay.jpg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="img/bri.jpg" alt="Instagram"></a></li>
+      </ul>
+    </div> 
+    <div class="partners"> 
+      <h3>Partner Kerja</h3> 
+      <ul class="list-unstyled partners">
+        <li><a href="#"><img src="img/tiktok.jpg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="img/shopee.jpg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="img/tokopedia.jpg" alt="Twitter"></a></li>
+      </ul>
+    </div> 
+  </div> 
+</section>
 
 <?php
 include 'footer.php'

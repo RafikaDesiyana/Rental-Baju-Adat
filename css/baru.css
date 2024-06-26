@@ -426,3 +426,78 @@ footer{
 .popup-content input[type="hidden"] {
   display: none;
 }
+
+#about {
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+.judul-about h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #343a40;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tentang {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.history, .sponsors, .partners {
+  margin-bottom: 40px;
+}
+
+.history h3, .sponsors h3, .partners h3 {
+  font-size: 28px;
+  color: #495057;
+  border-bottom: 2px solid #6c757d;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.history p {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Centers the items horizontally */
+}
+
+.list li {
+  flex: 1;
+}
+
+.list a {
+  display: block;
+  text-align: center;
+}
+
+.list img {
+  max-width: 30px;
+ 
+}
+  
+  .history h3, .sponsors h3, .partners h3 {
+    font-size: 24px;
+  }
+
+  .history p {
+    font-size: 16px;
+  }
+
+  .list {
+    flex-direction: row; /* Ensures items are side by side on smaller screens too */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */
+    gap: 10px; /* Reduces the gap between items on smaller screens */
+  }

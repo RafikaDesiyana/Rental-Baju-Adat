@@ -447,7 +447,7 @@ include 'header.php'
     </div> 
     <div class="sponsors"> 
       <h3>Sponsor</h3> 
-      <ul class="list-unstyled sponsors">
+      <ul class="list sponsors">
         <li><a href="#"><img src="img/danaaa.jpg" alt="Facebook"></a></li>
         <li><a href="#"><img src="img/shopeepay.jpg" alt="Twitter"></a></li>
         <li><a href="#"><img src="img/bri.jpg" alt="Instagram"></a></li>
@@ -455,7 +455,7 @@ include 'header.php'
     </div> 
     <div class="partners"> 
       <h3>Partner Kerja</h3> 
-      <ul class="list-unstyled partners">
+      <ul class="list partners">
         <li><a href="#"><img src="img/tiktok.jpg" alt="Facebook"></a></li>
         <li><a href="#"><img src="img/shopee.jpg" alt="Twitter"></a></li>
         <li><a href="#"><img src="img/tokopedia.jpg" alt="Twitter"></a></li>

@@ -475,12 +475,11 @@ footer{
 }
 
 .list li {
-  flex: 1;
+  margin-bottom: 10px;
 }
 
 .list a {
-  display: block;
-  text-align: center;
+  color: #777;
 }
 
 .list img {
@@ -488,16 +487,24 @@ footer{
  
 }
   
-  .history h3, .sponsors h3, .partners h3 {
+.history h3, .sponsors h3, .partners h3 {
     font-size: 24px;
-  }
+}
 
-  .history p {
-    font-size: 16px;
-  }
+.history p {
+font-size: 16px;
+}
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+.partners{
+  margin-top: 10px;
+}
 
-  .list {
-    flex-direction: row; /* Ensures items are side by side on smaller screens too */
-    flex-wrap: wrap; /* Allows items to wrap to the next line if they don't fit */
-    gap: 10px; /* Reduces the gap between items on smaller screens */
-  }
+.partners a {
+  display: inline-block;
+    margin-right: 15px;
+    color: #777;
+    font-size: 20px;
+}

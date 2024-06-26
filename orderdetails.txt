@@ -1,0 +1,64 @@
+Nama: Rafika
+No HP: 08134511
+Alamat: Jl Kepri
+Durasi Peminjaman: 2 hari
+Metode Pembayaran: Dana
+Judul Item: Baju adat Yogyakarta
+Harga Item: Rp.350.000/PaketPromo
+
+Nama: Rafika
+No HP: 08134511
+Alamat: Jl Kepri
+Durasi Peminjaman: 2 hari
+Metode Pembayaran: Dana
+Judul Item: Baju adat Jakarta
+Harga Item: Rp.250.000/PaketPromo
+
+Nama: Abdul 
+No HP: 112131
+Alamat: Nuanda
+Durasi Peminjaman: 1 hari
+Metode Pembayaran: ShopeePay
+Judul Item: Baju adat Yogyakarta
+Harga Item: Rp.350.000/PaketPromo
+
+Nama: Abdul
+No HP: 71621
+Alamat: HUANSA
+Durasi Peminjaman: 2 hari
+Metode Pembayaran: TransferBRI
+Judul Item: Baju adat Jawa Tengah
+Harga Item: Rp.300.000/PaketPromo
+
+Nama: Fika
+No HP: 3444
+Alamat: Kepri
+Durasi Peminjaman: 2 hari
+Metode Pembayaran: ShopeePay
+Judul Item: Baju adat Lampung
+Harga Item: Rp.330.000/PaketPromo
+
+Nama: ryy
+No HP: jgjj
+Alamat: k
+Durasi Peminjaman: 4 hari
+Metode Pembayaran: TransferBRI
+Judul Item: Baju Adat NTT
+Harga Item: RP.370.000
+
+Nama: Rafika
+No HP: 123456
+Alamat: kijang
+Durasi Peminjaman: 4 hari
+Metode Pembayaran: TransferBRI
+Judul Item: Baju Adat Aceh
+Harga Item: RP.550.000
+
+Nama: Rafika Desiyana
+No HP: 083187259574
+Alamat: kijang
+Durasi Peminjaman: 5 hari
+Metode Pembayaran: ShopeePay
+Judul Item: Baju Adat Bangka Belitung
+Harga Item: RP.320.000
+

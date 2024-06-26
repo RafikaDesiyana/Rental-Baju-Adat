@@ -1,4 +1,4 @@
-<body>
+
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -11,9 +11,8 @@
                 <div class="col-md-4">
                     <h3>Link Penting</h3>
                     <ul class="list-unstyled">
-                        <li><a href="pembayarab.html">Konfirmasi Pembayaran</a></li>
-                        <li><a href="#">Pembayaran & Pengiriman</a></li>
-                        <li><a href="syarat%20dan%20ketentuan.html">Syarat & Ketentuan</a></li>
+                        <li><a href="lihatorder.php">Lihat Orderan</a></li>
+                        <li><a href="syarat%20dan%20ketentuan.php">Syarat & Ketentuan</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -34,5 +33,3 @@
             </div>
         </div>
     </footer>
-</body>
-</html>
